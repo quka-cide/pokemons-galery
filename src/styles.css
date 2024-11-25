@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    margin: auto;
+    max-width: 1000px;
+}
+
+.item {
+    display: block;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+}
+
+.loading {
+    text-align: center;
+    margin: 10px;
+}
